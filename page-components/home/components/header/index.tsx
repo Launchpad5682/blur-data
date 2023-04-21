@@ -17,7 +17,7 @@ const interLight = Inter({
 
 const Header = () => {
   return (
-    <div className="w-full h-full px-10 py-4 flex flex-col items-start justify-center">
+    <div className="w-full h-fit px-10 py-4 flex flex-col items-start justify-center">
       <h1 className={`${inter.className} text-2xl`}>Blurred Image DataURL</h1>
       <h4 className={`${interLight.className} text-lg`}>
         Optimised to use as{" "}
